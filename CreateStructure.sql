@@ -22,4 +22,4 @@ CREATE TABLE dbo.Basket
   Value int CHECK(Value > 0),
   PurchaseDate date DEFAULT GETDATE(), 
   DiscountValue int,
-);
+); 
